@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #007b7b;
+}
+
+.content {
+  margin-top: 10px;
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  width: 600px;
+  padding-left: 10px;
+  font-family: PixeloidSans;
+  color: white;
+}
+
+.center {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100vh;
+  gap: 16px;
+}
+
+.text {
+  font-family: PixeloidSans;
+  font-size: 10px;
+  color: white;
+  margin: 0;
+}
+
+.content_info {
+  display: flex;
+  flex-direction: row;
+}
+
+.content_text {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 40px;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.avatar {
+  padding-left: 35%;
+  padding-top: 35%;
+}
+
+.footer {
+  background-color: #bdbdbd;
+  margin-top: auto;
+  border-top: 3px solid white;
+}
+
+.pusk {
+  padding-top: 5px;
+  width: 95px;
+  height: 36px;
+}
+
+@font-face {
+  font-family: PixeloidSans;
+  font-weight: 400;
+  font-style: normal;
+  src: local("PixeloidSans"), url("../fonts/PixeloidSans.woff2") format("woff2"),
+    url("../fonts/PixeloidSans.woff") format("woff"),
+    url("../fonts/PixeloidSans.eot") format("eot");
+  font-display: swap;
+}
